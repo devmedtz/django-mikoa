@@ -19,9 +19,18 @@ This package is available in [Python Package Index](https://pypi.org/project/dja
 
 ### To access Tanzania Regions
 
-```
+```python
 from mikoa.models import Region
 regions = Region.objects.all()
 
 print(regions)
+```
+
+### To access Tanzania Districts
+
+```python
+from mikoa.models import District
+districts = District.objects.all()
+
+print(districts)
 ```
