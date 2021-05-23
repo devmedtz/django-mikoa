@@ -7,6 +7,13 @@ A Django application consisting of all Tanzania locations from Regions to Distri
 * Python 3.6+
 * Pip or Pipenv
 
+## It will Cover
+
+* [x] Regions (region, capital, number of districts, area, population, postcode and zone)
+* [x] Districts (district, region, population)
+* [ ] Wards
+* [ ] Vilage/Streets
+
 ## Installation
 
 This package is available in [Python Package Index](https://pypi.org/project/django-mikoa/) and can be installed using `pip` or `pipenv`
@@ -46,3 +53,19 @@ for region in regions:
         print(district.region.name)
         print(district.name)   
 ```
+
+## Give it a star
+
+If you found this repository useful, give it a star so as the whole galaxy of developer can get to know it.
+
+## Bug bounty?
+
+If you encounter issue with the usage of the package, feel free raise an issue so as we can fix it as soon as possible(ASAP).
+
+## Pull Requests
+
+If you have something to add I welcome pull requests on improvement , you're helpful contribution will be merged as soon as possible
+
+## Disclaimer
+
+All the location I used to build this repository, I got from an public repository titled [tanzania-locations-db](https://github.com/HackEAC/tanzania-locations-db), I'm not responsible for any kind of misinformation in it, So use it to your own risk
