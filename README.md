@@ -11,6 +11,7 @@ A Django application consisting of all Tanzania locations from Regions to Distri
 
 This package is available in [Python Package Index](https://pypi.org/project/django-mikoa/) and can be installed using `pip` or `pipenv`
 
-```
-pip install django-mikoa
-```
+1. ``pip install django-countries``
+2. Add ``mikoa`` to ``INSTALLED_APPS``
+
+## Usage
