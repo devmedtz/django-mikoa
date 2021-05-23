@@ -4,8 +4,8 @@ A Django application consisting of all Tanzania locations from Regions to Distri
 
 ## Prerequisites
 
-Python 3.6+
-Pip or Pipenv
+* Python 3.6+
+* Pip or Pipenv
 
 ## Installation
 
