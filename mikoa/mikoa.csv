@@ -1,0 +1,31 @@
+﻿id,name,capital,districts,area,population,postcode,zone
+1,Arusha Region,Arusha,6,34516,1694310,23xxx,Northern
+2,Dar es Salaam Region,Dar es Salaam,3,1393,4364541,11xxx,Coastal
+3,Dodoma Region,Dodoma,7,41311,2083588,41xxx,Central
+4,Geita Region,Geita,5,20054,1739530,30xxx,Lake
+5,Iringa Region,Iringa,3,35503,941238,51xxx,Southern Highlands
+6,Kagera Region,Bukoba,7,39627,2458023,35xxx,Lake
+7,Katavi Region,Mpanda,2,45843,564604,50xxx,Southern Highlands
+8,Kigoma Region,Kigoma,6,45066,2127930,47xxx,Central
+9,Kilimanjaro Region,Moshi,6,13209,1640087,25xxx,Northern
+10,Lindi Region,Lindi,5,67000,864652,65xxx,Coastal
+11,Manyara,Babati,5,47913,1425131,27xxx,Northern
+12,Mara Region,Musoma,6,31150,1743830,31xxx,Lake
+13,Mbeya Region,Mbeya,8,62420,2707410,53xxx,Southern Highlands
+14,Mjini Magharibi Region,Zanzibar City,2,230,593678,71xxx,Zanzibar
+15,Morogoro,Morogoro,6,70799,2218492,67xxx,Coastal
+16,Mtwara Region,Mtwara,5,16707,1270854,63xxx,Coastal
+17,Mwanza Region,Mwanza,7,9467,2772509,33xxx,Lake
+18,Njombe Region,Njombe,4,21347,702097,59xxx,Southern Highlands
+19,Pemba North Region,Wete,2,574,211732,75xxx,Zanzibar
+20,Pemba South Region,Chake Chake,2,332,195116,74xxx,Zanzibar
+21,Pwani Region,Kibaha,6,32407,1098668,61xxx,Coastal
+22,Rukwa Region,Sumbawanga,3,22792,1004539,55xxx,Southern Highlands
+23,Ruvuma Region,Songea,5,66477,1376891,57xxx,Southern Highlands
+24,Shinyanga Region,Shinyanga,3,18901,1534808,37xxx,Lake
+25,Simiyu Region,Bariadi,5,25212,1584157,39xxx,Lake
+26,Singida Region,Singida,5,49437,1370637,43xxx,Central
+27,Tabora Region,Tabora,7,76151,2291623,45xxx,Central
+28,Tanga Region,Tanga,8,27348,2045205,21xxx,Northern
+29,Unguja North Region,Mkokotoni,2,470,187455,73xxx,Zanzibar
+30,Unguja South Region,Koani,2,854,115588,72xxx,Zanzibar
