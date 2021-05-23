@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name="django-mikoa",
-    version="0.0.1",
+    version="0.0.3",
     packages=find_packages(),
     include_package_data=True,
     author="Medson Naftali",
@@ -26,4 +26,8 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    package_data={
+        # And include any *.csv files found in the "mikoa" directory
+        "mikoa": ["*.csv"],
+    }
 )
