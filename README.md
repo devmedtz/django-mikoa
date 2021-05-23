@@ -34,3 +34,15 @@ districts = District.objects.all()
 
 print(districts)
 ```
+
+### To access all Districts of Certain Region
+
+```python
+from mikoa.models import Region, District
+regions = Region.objects.all()
+
+for region in regions:
+    for district in region.district_set.all():
+        print(district.region.name)
+        print(district.name)   
+```
