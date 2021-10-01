@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{% load static %}
+{% load widget_tweaks %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'example/css/bootstrap.min.css' %}">
+    <title>Application Form</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Example</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-lg-8">
+                <form method="POST" action="">
+                    {% csrf_token %} 
+                    <div class="form-group mb-3">
+                        <label class="mb-2" for=""><b>Name</b></label>
+                        {% render_field form.name class="form-control" %}
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="mb-2" for=""><b>Email</b></label>
+                        {% render_field form.email class="form-control" %}
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="mb-2" for=""><b>Phone</b></label>
+                        {% render_field form.phone class="form-control" %}
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="mb-2" for=""><b>Region</b></label>
+                        <select class="form-select" name="region" id="region" load-district-url="{% url 'example:ajax_load_districts' %}">
+                            <option value="">select region</option>
+                            {% for m in mikoa %}
+                            <option value="{{m.id}}">{{m.name}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="mb-2" for=""><b>District</b></label>
+                        <select class="form-select" name="district" id="district">
+                            <option value="">select district</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-info">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'example/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'example/js/jquery-3.5.1.min.js' %}"></script>
+    <script src="{% static 'example/js/custom.js' %}"></script>
+</body>
+</html>
