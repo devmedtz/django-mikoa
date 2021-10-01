@@ -1,6 +1,6 @@
 # django-mikoa
 
-A Django application consisting of all Tanzania locations from Regions to District.
+A Django application consisting of all Tanzania locations from Regions to District. The full tutorial on how to integrate on django project found on [How to create dependent dropdown list of Tanzania Region by Django Ajax](https://sogea.co.tz/150003-how-to-create-dependent-dropdown-list-of-tanzania-region-by-django-ajax/)
 
 ## Prerequisites
 
